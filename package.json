@@ -1,7 +1,7 @@
 {
-  "name": "node-starter",
+  "name": "js-starter",
   "version": "1.0.0",
-  "description": "Starter kit for Node.js projects",
+  "description": "Basic starter kit for JS projects",
   "main": "index.js",
   "scripts": {
     "lint": "eslint './src/**/*.js' --config ./node_modules/@fpoumian/common/eslint-configs/node-standard/.eslintrc",
