@@ -4,8 +4,8 @@
   "description": "Starter kit for Node.js projects",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --config ./node_modules/@fpoumian/common/eslint-configs/node-standard/.eslintrc",
-    "format": "prettier ./**/*.js --config ./node_modules/@fpoumian/common/.prettierrc --write",
+    "lint": "eslint './src/**/*.js' --config ./node_modules/@fpoumian/common/eslint-configs/node-standard/.eslintrc",
+    "format": "prettier './src/**/*.js' --config ./node_modules/@fpoumian/common/.prettierrc --write",
     "test": "jest"
   },
   "author": "Fernando Poumian",
