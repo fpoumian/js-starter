@@ -1,5 +1,3 @@
-function sayHello(name) {
+export default function sayHello(name) {
   return `Hello ${name}`
 }
-
-module.exports = sayHello

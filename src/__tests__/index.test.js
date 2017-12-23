@@ -1,4 +1,4 @@
-const sayHello = require('../index')
+import sayHello from '../index'
 
 describe('Index', () => {
   it('Should return "Hello Mr.Thompson"', () => {

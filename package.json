@@ -6,12 +6,16 @@
   "scripts": {
     "lint": "eslint './src/**/*.js' --config ./node_modules/@fpoumian/common/eslint-configs/node-standard/.eslintrc",
     "format": "prettier './src/**/*.js' --config ./node_modules/@fpoumian/common/.prettierrc --write",
+    "build": "babel src -d dist --ignore src/**/__mocks__,src/**/__tests__",
     "test": "jest"
   },
   "author": "Fernando Poumian",
   "license": "MIT",
   "devDependencies": {
-    "@fpoumian/common": "^1.0.1",
+    "@fpoumian/common": "^1.0.3",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-preset-stage-2": "^6.24.1",
     "jest": "^22.0.4",
     "jest-cli": "^22.0.4"
   },
